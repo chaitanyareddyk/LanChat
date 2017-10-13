@@ -13,8 +13,8 @@ If you have any queries do contact me at: contact@chaitanyareddy.me
 **Also this project is in its early beta stage**
 
 ### Project Members:
--
--Arun Kumar
--Balraj J.
--Chaitanya Reddy K.
--Manish Kumar G.
+
+- Arun Kumar
+- Balraj J.
+- Chaitanya Reddy K.
+- Manish Kumar G.
