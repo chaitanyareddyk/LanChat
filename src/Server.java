@@ -18,9 +18,9 @@ public class Server extends Applet implements ActionListener, Runnable
         
         ServerSocket ss;
         Socket s;
-                BufferedReader br;
-                BufferedWriter bw;
-                TextArea msg;
+        BufferedReader br;
+        BufferedWriter bw;
+        TextArea msg;
         Button sb,eb,sfb,rfb;
         List msgs;
     
@@ -75,7 +75,7 @@ public void init(){
                 setVisible(true);
 
                 try
-                {       showStatus("Ready for connection...");
+                {       showStatus("Ready for connection....");
                         msgs.add("Waiting for client to conenct and reply...");
                         ss=new ServerSocket(1698);
                         s=ss.accept();
@@ -83,7 +83,7 @@ public void init(){
                         bw=new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
                         bw.write("We are now Connected...!");                       
                         bw.newLine();
-                        bw.flush();
+                        bw.flush(); 
                         Thread tr;
                         tr=new Thread(this);
                         tr.start();
@@ -98,8 +98,8 @@ public void init(){
                 while(true){
                                 
                         try                      
-                        {       showStatus("Connected...!");
-                                msgs.add("Reply: "+br.readLine());
+                        {       showStatus("New Message...!");
+                                msgs.add("Reply ["+java.time.LocalTime.now()+"] : "+br.readLine());
                                 msgs.select(msgs.getItemCount()-1);
                               
                         }catch (Exception ex){System.out.println("Error :"+ex);}
@@ -128,7 +128,7 @@ public void init(){
                         try
                         {                               
                                 bw.write(msg.getText());
-                                msgs.add("Sent: "+msg.getText());
+                                msgs.add("Sent ["+java.time.LocalTime.now()+"] : "+msg.getText());
                                 showStatus("Message Delivered...");
                                 msgs.select(msgs.getItemCount()-1);
                                 bw.newLine();bw.flush();                               
@@ -222,7 +222,7 @@ class ReceiveFiles{
         
         
         Scanner scan1 = new Scanner(System.in);  
-        System.out.println("Enter the path: ");
+        System.out.println("Where you want to save the file (please enter fully quallified name) : ");
         String fileOutput = scan1.nextLine(); 
        
         byte[] aByte = new byte[1];

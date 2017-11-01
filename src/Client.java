@@ -57,7 +57,7 @@ setForeground(Color.blue);
 
                 list=new List();
 
-                text=new TextArea("Enter your message here",3,30);
+                text=new TextArea("Enter your message here...",3,30);
 
                 panels[0].add(list);
                 panels[1].add(text);
@@ -96,9 +96,9 @@ setForeground(Color.blue);
                                 
                      try{
                         
-                                list.add("Reply: "+br.readLine());
+                                list.add("Reply ["+java.time.LocalTime.now()+"] : "+br.readLine());
                                 list.select(list.getItemCount()-1);
-                                showStatus("Connected...!");
+                                showStatus("New Message...!");
                                                 }catch(Exception h){System.out.println("Error:"+h);}
                                 }
                 }
@@ -125,7 +125,7 @@ setForeground(Color.blue);
                         {
                                 bw.write(text.getText());
                                 showStatus("Connected...!");
-                                list.add("Sent: "+text.getText());
+                                list.add("Sent ["+java.time.LocalTime.now()+"] : "+text.getText());
                                 showStatus("Messsage Delivered...");
                                 list.select(list.getItemCount()-1);
                                 bw.newLine();
@@ -221,7 +221,7 @@ class CReceiveFiles{
         
         
         Scanner scan1=new Scanner(System.in);  
-        System.out.println("Enter the path: ");
+        System.out.println("Where you want to save the file (please enter fully quallified name) : ");
         String fileOutput=scan1.nextLine(); 
        
         byte[] aByte=new byte[1];
