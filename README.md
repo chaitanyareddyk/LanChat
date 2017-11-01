@@ -14,7 +14,6 @@ If you have any queries do contact me at: contact@chaitanyareddy.me
 
 ### Project Members:
 
-- Arun Kumar
-- Balraj J.
+
 - Chaitanya Reddy K.
 - Manish Kumar G.
