@@ -3,13 +3,14 @@
 
 [![N|Solid](https://image.ibb.co/kGkirG/crk.png)](http://chaitanyareddy.me)
 
+
                                 LanChat is a Java application. With LanChat, you can communicate with other users in Local Area Network(LAN) by text messages and also can share files of any format and any size. LanChat doesn&#39;t stores any of your data resulting in optimum privacy.
 
 **Source Code:**
 
 **Front-end:**
 
-       ** The front-end is coded up using _Applet_ class in _java.applet_ package, also we used terminal for some front-end operations.
+**       ** The front-end is coded up using _Applet_ class in _java.applet_ package, also we used terminal for some front-end operations.
 
 **Back-end:**
 
@@ -17,11 +18,11 @@
 
 **Operating System Support:**
 
-       ** LanChat supports Mac OS, all Windows OS and also all Linux distros, if and only if they have installed either JRE or JDK.
+**       ** LanChat supports Mac OS, all Windows OS and also all Linux distros, if and only if they have installed either JRE or JDK.
 
 **Applications:**
 
-       ** Using LanChat, we can communicate with one another within the LAN and share files of any type without restrictions.
+**       ** Using LanChat, we can communicate with one another within the LAN and share files of any type without restrictions.
 
 **Personal Info:**
 
