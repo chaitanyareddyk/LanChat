@@ -9,7 +9,7 @@
 
 **Front-end:**
 
-**       ** The front-end is coded up using _Applet_ class in _java.applet_ package, also we used terminal for some front-end operations.
+       ** The front-end is coded up using _Applet_ class in _java.applet_ package, also we used terminal for some front-end operations.
 
 **Back-end:**
 
@@ -17,11 +17,11 @@
 
 **Operating System Support:**
 
-**       ** LanChat supports Mac OS, all Windows OS and also all Linux distros, if and only if they have installed either JRE or JDK.
+       ** LanChat supports Mac OS, all Windows OS and also all Linux distros, if and only if they have installed either JRE or JDK.
 
 **Applications:**
 
-**       ** Using LanChat, we can communicate with one another within the LAN and share files of any type without restrictions.
+       ** Using LanChat, we can communicate with one another within the LAN and share files of any type without restrictions.
 
 **Personal Info:**
 
