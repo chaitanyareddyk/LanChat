@@ -27,18 +27,6 @@
   
   
 
-**Personal Info:**
-
-**Kothapeta Chaitanya Reddy, Gangishetty Manish Kumar**
-
-**Marri Laxman Reddy Institute of Technology and Management – Dundigal, Hyd.**
-
-**II Year, Computer Science and Engineering Department**
-
-**Contact No: 7673933916, 8099248756**
-
-**Email: contact@chaitanyareddy.me**
-
 
 
 **This is an educational Project and not at all intended for end user usage.**
